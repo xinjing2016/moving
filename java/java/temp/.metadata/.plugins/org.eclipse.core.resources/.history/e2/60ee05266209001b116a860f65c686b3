@@ -1,0 +1,46 @@
+package test;
+/*
+ * 接口
+ * 接口无法实例化
+ * 接口要实例化，只能通过多态
+ * 
+ * 多态：
+ * 1，具体类实例化，几乎不用
+ * 2，抽象类多态（常用）
+ * 3，接口（最常用）
+ * 因为接口中一定要重写
+ * 
+ * 子类可以是抽象类，具体类
+ */
+
+interface Train {
+	public abstract void Jump();
+}
+
+
+class AmimalTrain implements Train{
+	public void Jump() {
+		System.out.println("Amimal Jump");
+	}
+}
+
+//这里没有报错是因为还没有被实例化
+abstract class PersonTrain implements Train{
+	
+}
+//还是要实例化jump
+class cc extends PersonTrain{
+	public void Jump() {
+		System.out.println("cc Jump");
+	}
+}
+
+public class a0926_interface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Train t = new AmimalTrain();
+		t.Jump();
+	}
+
+}

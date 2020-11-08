@@ -1,0 +1,41 @@
+package test;
+
+/*
+ * 多态
+ * 
+ * 
+ */
+
+class Animal{
+	
+	public static void eat() {
+		System.out.println("rice");
+	}
+}
+
+class Cat extends Animal{
+		
+	public static void eat() {
+		System.out.println("cat eat fish");
+	}
+}
+
+class Dog extends Animal{
+	
+	public static void eat() {
+		System.out.println("dog eat shi");
+	}
+}
+
+public class a0914_duotai_anli {
+
+	public static void main(String[] args) {
+		// 动物多态毛
+		Animal a = new Cat();
+		a.eat();
+		System.out.println("---------------");
+		
+		
+	}
+
+}

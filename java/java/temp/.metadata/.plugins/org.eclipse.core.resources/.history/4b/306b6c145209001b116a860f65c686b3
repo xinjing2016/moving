@@ -1,0 +1,30 @@
+package test;
+
+/*
+ * ∂‡Ã¨
+ * 
+ * 
+ */
+
+class Animal{
+	
+	public static void eat() {
+		System.out.println("rice");
+	}
+}
+
+class Cat extends Animal{
+		
+	public static void eat() {
+		System.out.println("cat eat fish");
+	}
+}
+
+public class a0914_duotai_anli {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+	}
+
+}

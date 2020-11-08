@@ -1,0 +1,33 @@
+package java10day;
+/*
+ * 返回值：类、抽象类、接口
+ * 
+ * 返回值是类名，真正返回的是十里河的对象
+ */
+
+	
+//abstract class tests{
+//	abstract public void print();
+//}	
+
+class Bro{
+	public void jiayou() {
+		System.out.println("carry on");
+	}
+}
+
+class broFractory{
+	public Bro make() {
+		return new Bro();
+}
+
+public class java1007_return {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		broFractory bf = new broFractory();
+//		Bro bb = bf.make();
+//		bb.jiayou();
+	}
+}

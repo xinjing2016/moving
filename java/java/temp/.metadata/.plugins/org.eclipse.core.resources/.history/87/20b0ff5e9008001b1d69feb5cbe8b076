@@ -1,0 +1,29 @@
+package test;
+/*
+ * 在同个目录下的文件可以不用引用，直接用就好了
+ */
+
+class Array{
+	//public static void
+}
+
+public class a0801_static {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] arr = {1,2,3};
+		for(int x=0 ;x<arr.length;x++) {
+			System.out.println(arr[x]);
+		}
+		
+	}
+
+}
+
+
+
+public static void printArr(int[] arr) {
+	
+}
+
+

@@ -1,0 +1,15 @@
+package test;
+
+class args{
+	public int sum(int a,int b) {
+		return a+b;
+	}
+}
+
+
+public class args0702 {
+	public static void main(String[] args) {
+		args a = new args();
+		System.out.println(a.sum(1, 2));
+	}
+}

@@ -1,0 +1,40 @@
+package test;
+/*
+ * 构造方法
+ *方法名和类型一致，没有返回值 
+ */
+
+class Studenta{
+	private String name;
+	private int age;
+	
+	//给对象初始化
+	public Studenta(){
+		
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+		
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public int getAge() {
+		return this.age;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+}
+
+public class fengzhuang0710 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

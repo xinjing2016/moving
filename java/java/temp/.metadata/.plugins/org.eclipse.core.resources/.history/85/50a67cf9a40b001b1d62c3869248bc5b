@@ -1,0 +1,28 @@
+package java10day;
+//package java10;
+
+/*
+ * °ü
+ * 
+ * 
+ */
+
+//abstract class tests{
+//	abstract public void print();
+//}	
+
+
+
+public class java1012_package {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		broFractory bf = new broFractory();
+		Bro bb = bf.make();
+		bb.jiayou();
+		
+		//Á´Ê½Ð´·¨
+		new broFractory().make().jiayou();
+	}
+}

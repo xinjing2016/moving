@@ -1,0 +1,87 @@
+package java10;
+
+/*
+ * main 
+ * Syso
+ * 提示
+
+ * Alt + /
+ * 格式化 ctrl shift f
+ */
+class Student {
+	private String name;
+
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Student(String name) {
+		super();
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}
+
+class Teacher {
+	private String name;
+	private String age;
+
+	public String getName() {
+		return name;
+	}
+
+	public Teacher() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAge() {
+		return age;
+	}
+
+	public Teacher(String name, String age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+
+	public void setAge(String age) {
+		this.age = age;
+	}
+
+}
+
+class cc extends Student{
+	
+	@Override
+	public void setName(String name) {
+//		this.name = name;
+	}
+	
+}
+
+public class java10_eclips {
+
+	public static void main(String[] args) {
+		int a = 1;
+//		System.out.println();
+//		Scanner sc = new Scanner(System.in);
+		
+		Dog d = Dog("aa",1);
+		
+	}
+
+}

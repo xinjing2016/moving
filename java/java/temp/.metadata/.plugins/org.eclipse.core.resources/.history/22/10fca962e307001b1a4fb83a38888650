@@ -1,0 +1,7 @@
+package test;
+
+
+//定义一个学生类
+public class student {
+
+}

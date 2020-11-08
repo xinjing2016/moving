@@ -1,0 +1,46 @@
+package test;
+/*
+ * static
+ * 多个变量共享一块内存
+ */
+
+class Studentb{
+	private String name;
+	private int age;
+	
+	//给对象初始化的函数
+	public Studentb(){
+		System.out.println("无参构造");
+	}
+	
+	public Studentb(String name) {
+		this.name = name;
+	}
+		
+	public Studentb(int age) {
+		this.age = age;
+	}
+	
+	public Studentb(int age,String name) {
+		this.age = age;
+		this.name = name;
+	}
+	
+	public int getAge() {
+		return this.age;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+}
+
+public class fengzhuang0711_static {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Studentb s = new Studentb(13,"guoxinjing");
+		System.out.println(s.getAge()+"---"+s.getName());
+	}
+
+}

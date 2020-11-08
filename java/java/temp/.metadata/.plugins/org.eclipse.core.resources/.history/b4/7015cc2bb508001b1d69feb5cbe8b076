@@ -1,0 +1,25 @@
+package test;
+/*
+ * 继承
+ * 类的继承出来成一个类
+ *  
+ */
+
+
+
+
+public class a0810_jicheng {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Code c = new Code(1,1);
+		
+	}	
+
+}
+
+
+
+
+
+

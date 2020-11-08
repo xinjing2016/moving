@@ -1,0 +1,46 @@
+package test;
+/*
+ * 代码块
+ *  局部代码块，构造代码块，静态代码快
+ *  
+ *  构造代码块：构造函数共有的块
+ *  静态代码块：static修饰，只执行一次
+ */
+
+
+
+class Code{
+	
+	//构造代码块
+	{
+		int x = 1;
+		System.out.println(x);
+	}
+	
+	public Code(int x,int y) {
+		x = 2;
+		y = 2;
+	}
+	
+	static {
+		int x = 3;
+		System.out.println(x);
+	}
+}
+
+
+public class a0808_code {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Code c = new Code(1,1);
+		
+	}	
+
+}
+
+
+
+
+
+

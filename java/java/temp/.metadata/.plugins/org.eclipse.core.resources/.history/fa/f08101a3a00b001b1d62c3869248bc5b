@@ -1,0 +1,25 @@
+package java10day;
+/*
+ * 形参：类、抽象类、接口
+ * 
+ * 抽象类和接口一定要具体化才能用传参
+ */
+
+	
+//abstract class tests{
+//	abstract public void print();
+//}	
+
+class bro{
+	public void jiayou() {
+		System.out.println("carry on");
+	}
+}
+
+public class java1007_return {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+}

@@ -1,0 +1,26 @@
+package java10day;
+/*
+ * 形参：类、抽象类、接口
+ */
+public class java1005_args {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+	
+class test{
+	public void print() {
+		System.out.println("test");
+	}
+}	
+
+class testDemo{
+	public void method() {
+		
+	}
+}
+
+}

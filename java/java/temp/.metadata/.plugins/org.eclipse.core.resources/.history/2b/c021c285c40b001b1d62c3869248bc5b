@@ -1,0 +1,90 @@
+package java10day;
+
+/*
+ * 内部类
+ * 内部类可以访问所有的成员和方法
+ * 内部类使用，必须要初始化
+ * 
+ * 成员内部类
+ * out.inner ai = new out().new inner();
+ * 成员方法内的局部内部类
+ */
+
+class out{
+	
+	private int a=3;
+	public int b;
+	public static int c;
+	
+	protected class inner{
+		int a=2;
+		public void print() {
+			int a=1;
+			System.out.println(a);
+			System.out.println(this.a);
+			System.out.println(out.this.a);
+			System.out.println(new out().a);
+			System.out.println("--------");
+		}
+	}
+	
+	private class inners{
+		public void print() {
+			System.out.println(a);
+			System.out.println(b);
+		}
+	}
+	
+	public static class in{
+		
+		public void print() {
+			System.out.println(c);
+		}
+	}
+	
+	public void test() {
+		int a =1 ;
+		class in{
+			public void test() {
+				System.out.println(a);
+			}
+		}
+		//访问内部类要使用对象
+		System.out.println("访问内部类要使用对象");
+		inner i = new inner();
+		i.print();
+		System.out.println("访问内部类要使用对象");
+		
+		//方法内部类访问方法变量
+			
+		in duixiang = new in();
+		duixiang.test();
+	}
+}
+
+
+
+public class java1018_neibu {
+
+	public java1018_neibu() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		//访问public protected的内部类
+		out.inner oi = new out().new inner();
+		oi.print();
+		System.out.println("-------访问public protected的内部类------");
+		
+		//访问静态内部类
+		out.in oin = new out.in();
+		oin.print();
+		new out.in().print();
+
+		//方法内部类访问方法变量
+		System.out.println("访问内部类要使用对象");	
+		out o = new out();
+		o.test();
+	}
+
+}

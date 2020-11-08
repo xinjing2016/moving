@@ -1,0 +1,13 @@
+package test;
+/*
+ * 在同个目录下的文件可以不用引用，直接用就好了
+ */
+
+public class a0801_static {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

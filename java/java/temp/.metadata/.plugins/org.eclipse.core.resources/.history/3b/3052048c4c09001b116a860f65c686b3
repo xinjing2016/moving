@@ -1,0 +1,40 @@
+package test;
+
+/*
+ * 多态
+ * 同一个事物在不同时间体现不同的状态
+ * 前提：要有继承关系，有方法重写，父类引用指向子类
+ * 
+ * 构造方法：创建子类对象的时候，访问父类的构造方法，对父类的数据进行初始化
+ * 实例化使用的是父类的成员变量，使用的是子类的重写的成员方法
+ * 
+ */
+
+class Fu{
+	
+	int num = 1;
+	
+	public static void show() {
+		System.out.println("duotai-fu");
+	}
+}
+
+class Zi extends Fu{
+	
+	int num = 2;
+	
+	public static void show() {
+		System.out.println("duotai-zi");
+	}
+}
+
+public class a0905_duotai {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Fu f = new Zi();
+		f.show();
+		System.out.println(f.num);
+	}
+
+}

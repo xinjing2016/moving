@@ -1,0 +1,22 @@
+package test;
+/*
+ * private,隐藏实现的细节，对外提供接口和方法 
+ * 
+ */
+class Pri{
+	String name;
+	private int age;
+	
+	public void setAge(int age) {
+		age = age;
+	}
+}
+
+public class fengzhuang0704 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

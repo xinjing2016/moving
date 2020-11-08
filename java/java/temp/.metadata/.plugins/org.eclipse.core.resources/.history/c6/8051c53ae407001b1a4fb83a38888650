@@ -1,0 +1,24 @@
+package test;
+
+
+//定义一个学生类
+public class student {
+	
+	
+	
+	
+
+}
+
+
+//定义学生测试类
+
+class stu_demo {
+	public static void main(String[] args) {
+		
+	}
+}
+
+
+
+

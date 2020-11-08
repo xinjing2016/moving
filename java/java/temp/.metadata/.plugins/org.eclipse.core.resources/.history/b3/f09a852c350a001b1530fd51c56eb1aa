@@ -1,0 +1,16 @@
+package java10;
+
+/*
+ * main 
+ * Syso
+ * ÌבÊ¾
+ * Alt + /
+ */
+
+public class java10_eclips {
+	
+	public static void main(String[] args) {
+		System.out.println();
+	}
+
+}

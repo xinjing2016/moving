@@ -1,0 +1,50 @@
+package test;
+
+/*
+ * abstract 
+ * 抽象类不一定有抽象方法，但是有抽象方法的类一定是抽象类
+ * 抽象类不能初始化
+ * 有构造方法但是不能被实例化
+ * 
+ * 抽象类的子类是抽象类
+ * 抽象类的子类不是抽象类就要重写抽象类的方法
+ */
+
+abstract class Animals{
+	
+	//没有方法体{}
+	public abstract void eat();
+}
+
+abstract class Cats extends Animals{
+		
+	public void eat() {
+		System.out.println("cat eat fish");
+	}
+}
+
+class Dogs extends Animals{
+	
+	public void eat() {
+		System.out.println("dog eat shis");
+	}
+}
+
+public class a0917_abstrust {
+
+	public static void main(String[] args) {
+		
+		// 不能实例化
+//		Animals a = new Animals();
+		
+		//实例化cat子类，不能实例化
+		Cats c = new Cats();
+		
+		//实例化dog
+		Dogs d = new Dogs();
+		d.eat();
+		
+		
+	}
+
+}

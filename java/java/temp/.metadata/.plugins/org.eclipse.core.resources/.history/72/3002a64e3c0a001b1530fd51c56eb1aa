@@ -1,0 +1,7 @@
+package java_jar;
+
+import java10.Animal;
+
+public class test_jar {
+	Animal a = new Animal();
+}

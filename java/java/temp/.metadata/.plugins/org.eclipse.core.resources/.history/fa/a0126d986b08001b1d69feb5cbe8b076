@@ -1,0 +1,32 @@
+package test;
+/*
+ * 参数是引用类型
+ */
+class args{
+	public int sum(int a,int b) {
+		return a+b;
+	}
+}
+
+class student{
+	public void study() {
+		System.out.println("studying");
+	}
+}
+
+class student_demo{
+	public void method(student s) {
+		s.study();
+	}
+}
+
+public class args0702 {
+	public static void main(String[] args) {
+		args a = new args();
+		System.out.println(a.sum(1, 2));
+		
+		//
+		student s = new student();
+		s.
+	}
+}

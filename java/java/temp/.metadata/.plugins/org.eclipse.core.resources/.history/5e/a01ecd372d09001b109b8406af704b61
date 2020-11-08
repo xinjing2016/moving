@@ -1,0 +1,29 @@
+package test;
+/*
+ * super
+ * 
+ */
+
+
+
+public class a0815_super {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Stu s = new Stu();
+		s.sleep();
+		Teacher t = new Teacher();
+		t.sleep();
+		
+		Tea t1 = new Tea();
+		t1.teac();
+		t1.teacs();
+	}	
+
+}
+
+
+
+
+
+

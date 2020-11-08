@@ -1,0 +1,22 @@
+package java_jar;
+/*
+ * hashCode
+ * getClass
+ */
+import java10.Dog;
+
+public class java1122_api extends Object{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dog d = new Dog();
+		System.out.println(d.hashCode());
+		
+		Dog dd = d;
+		System.out.println(dd.hashCode());
+		
+		//当前包的类名
+		System.out.println(dd.getClass());
+	}
+
+}

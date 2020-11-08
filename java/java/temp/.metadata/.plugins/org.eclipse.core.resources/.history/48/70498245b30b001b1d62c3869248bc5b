@@ -1,0 +1,16 @@
+package java10day;
+
+/*
+ * public
+ * д╛хо
+ * protected
+ * private
+ */
+
+public class java1016_xiushifu {
+
+	public java1016_xiushifu() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

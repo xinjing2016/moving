@@ -1,0 +1,18 @@
+package test;
+/*
+ * ½Ó¿Ú
+ */
+
+public class a0926_interface {
+
+	
+	interface Train {
+		public abstract void Jump();
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

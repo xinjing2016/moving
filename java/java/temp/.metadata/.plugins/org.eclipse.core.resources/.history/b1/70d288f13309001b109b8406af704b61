@@ -1,0 +1,67 @@
+package test;
+/*
+ * 重写
+ * 父类中私有方法不能被重写
+ * 父类中访问权限不能更低
+ * 父类中静态方法，子类也必须是静态方法
+ */
+
+class Fathera{
+	
+	int num = 3;
+	String name;
+	
+	public Fathera() {}
+	
+	public Fathera(String name) {
+		this.name = name;
+		System.out.println("初始化完成----"+this.name);
+	}
+	
+	private void show() {
+		System.out.println(this.num);
+	}
+}
+
+class Sona extends Fathera{
+	int num = 2;
+	
+//	public Son() {
+//		super();
+//	}
+	
+	public Sona(String name) {
+		super(name);
+	}
+	
+	public void show() {
+		int num = 1;
+		System.out.println(num);
+		System.out.println(this.num);
+		System.out.println(super.num);
+		
+	}
+	
+	public void show1() {
+//		super.show();
+	}
+	
+}
+
+public class a0824_overrite {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Son s = new Son("mm");
+		s.show();
+		
+
+	}	
+
+}
+
+
+
+
+
+

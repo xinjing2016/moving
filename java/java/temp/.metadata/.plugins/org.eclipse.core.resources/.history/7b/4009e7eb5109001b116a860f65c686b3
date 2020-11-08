@@ -1,0 +1,38 @@
+package test;
+
+/*
+ * ∂‡Ã¨
+ * 
+ * 
+ */
+
+class Fu{
+	
+	int num = 1;
+	
+	public static void show() {
+		System.out.println("duotai-fu");
+	}
+}
+
+class Zi extends Fu{
+	
+	int num = 2;
+	
+	public static void show() {
+		System.out.println("duotai-zi");
+	}
+	
+	public static void showZi() {
+		System.out.println("duotai-zi-sp");
+	}
+}
+
+public class a0914_duotai_anli {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+	}
+
+}

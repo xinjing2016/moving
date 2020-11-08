@@ -1,0 +1,14 @@
+package java10day;
+
+public class java1005_args {
+
+	public java1005_args() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

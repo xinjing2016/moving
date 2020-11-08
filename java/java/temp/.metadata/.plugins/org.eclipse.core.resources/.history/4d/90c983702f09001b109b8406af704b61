@@ -1,0 +1,58 @@
+package test;
+/*
+ * super
+ * 访问父类的成员变量和方法
+ */
+
+class Father{
+	
+	int num = 3;
+	String name;
+	
+	Father(String name) {
+		System.out.println("初始化完成----"+this.name);
+	}
+	
+	public void show() {
+		System.out.println(this.num);
+	}
+}
+
+class Son extends Father{
+	int num = 2;
+	
+	Son() {
+		super();
+	}
+	
+	public void show() {
+		int num = 1;
+		System.out.println(num);
+		System.out.println(this.num);
+		System.out.println(super.num);
+		
+	}
+	
+	public void show1() {
+		super.show();
+	}
+	
+}
+
+public class a0815_super {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Son s = new Son();
+		s.show1();
+		
+
+	}	
+
+}
+
+
+
+
+
+

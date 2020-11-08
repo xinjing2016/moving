@@ -1,0 +1,27 @@
+package test;
+/*
+ * ½Ó¿Ú
+ */
+
+interface Train {
+	public abstract void Jump();
+}
+
+
+class AmimalTrain implements Train{
+	public void Jump() {
+		System.out.println("Amimal Jump");
+	}
+}
+
+
+public class a0926_interface {
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package test;
+/*
+ * ผฬณะ
+ *  
+ */
+
+
+
+
+public class a0808_jicheng {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Code c = new Code(1,1);
+		
+	}	
+
+}
+
+
+
+
+
+

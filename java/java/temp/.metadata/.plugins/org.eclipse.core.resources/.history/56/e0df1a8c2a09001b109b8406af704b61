@@ -1,0 +1,45 @@
+package test;
+/*
+ * 继承
+ * 类的继承出来成一个类,只支持单继承，不支持多继承，可以多层继承
+ *  class ba{}
+ *  class zi extends ba{}
+ */
+
+class Person{
+	
+	String Name;
+	int age;
+	
+	public void sleep() {
+		System.out.println("sleeping");
+	}
+	
+}
+
+class Stu extends Person{
+	
+}
+
+class Teacher extends Person{
+	
+}
+
+
+public class a0810_jicheng {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Stu s = new Stu();
+		s.sleep();
+		Teacher t = new Teacher();
+		t.sleep();
+	}	
+
+}
+
+
+
+
+
+

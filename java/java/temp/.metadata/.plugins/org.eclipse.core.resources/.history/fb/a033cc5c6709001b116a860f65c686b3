@@ -1,0 +1,53 @@
+package test;
+
+interface Jumping{
+	public abstract void Jump();
+}
+
+class Animala {
+	private String name;
+	private int age;
+	
+	public Animala() {}
+	public Animala(String name,int age) {
+		this.name = name;
+		this.age = age;
+	}
+	public void getName() {
+		System.out.println(this.name);
+	}
+	public void getAge() {
+		System.out.println(this.age);
+	}
+	public abstract void eat();
+	
+}
+
+class Cata extends Animala{
+	public Cata() {}
+	public Cata(String name,int age) {
+		super(name, age);
+	}
+	public void eat() {
+		System.out.println("cat goes sleepipng");
+	}
+}
+
+class JumpCat extends Cata implements Jumping{
+	public JumpCat() {}
+	public JumpCat(String name,int age) {
+		super(name, age);
+	}
+//	public void eat() {
+//		
+//	}
+}
+
+public class a0931_example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

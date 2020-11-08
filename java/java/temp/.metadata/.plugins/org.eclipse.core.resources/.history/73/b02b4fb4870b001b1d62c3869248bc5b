@@ -1,0 +1,10 @@
+package java_jar;
+
+public class java1122_api extends Obeject{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

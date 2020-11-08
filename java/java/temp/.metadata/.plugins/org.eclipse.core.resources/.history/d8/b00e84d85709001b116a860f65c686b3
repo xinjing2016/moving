@@ -1,0 +1,40 @@
+package test;
+
+/*
+ * abstrust 
+ * 
+ * 
+ */
+
+abstract class Animals{
+	
+	public void eat() {
+		System.out.println("rice");
+	}
+}
+
+class Cats extends Animals{
+		
+	public void eat() {
+		System.out.println("cat eat fish");
+	}
+}
+
+class Dogs extends Animals{
+	
+	public void eat() {
+		System.out.println("dog eat shi");
+	}
+}
+
+public class a0917_abstrust {
+
+	public static void main(String[] args) {
+		// 
+	
+		
+		
+		
+	}
+
+}

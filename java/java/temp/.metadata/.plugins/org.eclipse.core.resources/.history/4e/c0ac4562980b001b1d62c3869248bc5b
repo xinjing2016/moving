@@ -1,0 +1,81 @@
+package java10day;
+
+interface SpeakEnglish{
+	public abstract void speak(); 
+}
+
+abstract class Person{
+	private String name;
+	private int age;
+	public Person() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Person(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public void sleep() {
+		System.out.println("sleepping");
+	}
+	
+	public abstract void eat();
+}
+
+abstract class Player extends Person{
+
+	public Player() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Player(String name, int age) {
+		super(name, age);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public abstract void study();
+}
+
+abstract class Coach extends Person{
+	
+	public Coach() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Coach(String name, int age) {
+		super(name, age);
+		// TODO Auto-generated constructor stub
+	}
+
+	public abstract void Teach();
+}
+
+
+
+
+
+
+public class java1001 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

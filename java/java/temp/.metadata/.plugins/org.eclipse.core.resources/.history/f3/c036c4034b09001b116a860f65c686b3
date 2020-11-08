@@ -1,0 +1,29 @@
+package test;
+
+/*
+ * 多态
+ * 同一个事物在不同时间体现不同的状态
+ * 
+ * 前提：要有继承关系，有方法重写，父类引用指向子类
+ */
+
+class Fu{
+	public void show() {
+		System.out.println("duotai");
+	}
+}
+
+class Zi extends Fu{
+	public void show() {
+		System.out.println("duotai-zi");
+	}
+}
+
+public class a0905_duotai {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package test;
+/*
+ * final
+ * 防止父类的函数不能被重写
+ * 子类只能使用，不能重写函数
+ * fianl 变量只能赋值一次
+ */
+class tests{
+	
+	public final void aa() {
+		System.out.println("final");
+		
+	}
+}
+
+class tests1 extends tests{
+	public void aa() {
+		System.out.println("override final");
+	}
+}
+
+public class a0901_final {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

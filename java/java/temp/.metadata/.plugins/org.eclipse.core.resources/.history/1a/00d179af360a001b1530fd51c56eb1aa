@@ -1,0 +1,22 @@
+package java10;
+
+import java.util.Scanner;
+
+/*
+ * main 
+ * Syso
+ * 提示
+ * Alt + /
+ * 格式化 ctrl shift f
+ */
+
+public class java10_eclips {
+
+	public static void main(String[] args) {
+		int a = 1;
+		System.out.println();
+		Scanner sc = new Scanner(System.in);
+
+	}
+
+}

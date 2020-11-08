@@ -1,0 +1,25 @@
+package java10day;
+
+interface SpeakEnglish{
+	public abstract void speak(); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+public class java1001 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

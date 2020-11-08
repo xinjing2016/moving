@@ -1,0 +1,37 @@
+package test;
+
+
+//定义一个学生类
+class student {
+	
+	String name;
+	String age;
+	String address;
+	
+	public void study() {
+		System.out.println("studying");
+	}
+	
+	
+
+}
+
+
+//定义学生测试类
+class stu_demo {
+	public static void main(String[] args) {
+		student s = new student();
+		
+		System.out.println(s.name);
+		System.out.println(s.age);
+		System.out.println(s.address);
+		
+		s.study();
+		
+		System.out.println(s.name+"---"+s.age+"---"+s.address);
+	}
+}
+
+
+
+

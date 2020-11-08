@@ -1,0 +1,31 @@
+package java_jar;
+/*
+ * hashCode
+ * getClass
+ * toString 要重写
+ * toHexString
+ * toString
+ * 
+ */
+import java10.Dog;
+
+public class java1122_api extends Object{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dog d = new Dog();
+		System.out.println(d.hashCode());
+		
+		Dog dd = d;
+		System.out.println(dd.hashCode());
+		
+		//当前包的类名
+		System.out.println(dd.getClass());
+		System.out.println(dd.getClass().getName());
+		System.out.println(dd.toString());
+		System.out.println(Integer.toHexString(dd.hashCode()));
+
+
+	}
+
+}

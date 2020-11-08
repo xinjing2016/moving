@@ -1,0 +1,36 @@
+package test;
+
+class Studenta{
+	private String name;
+	private int age;
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+		
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public int getAge() {
+		return this.age;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+}
+
+
+public class fengzhuang0710 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Studenta s = new Studenta();
+		s.setAge(20);
+		s.setName("aa");
+		System.out.println(s.getAge());
+		System.out.println(s.getName());
+	}
+
+}

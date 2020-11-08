@@ -1,0 +1,59 @@
+package test;
+/*
+ * static
+ *  多个变量共享一块内存
+ * 一个改了，全都改了 
+ * 静态成员方法只能访问静态成员变量和静态的成员方法
+ */
+
+class Array{
+	//public static void
+}
+
+class Studentb{
+	private String name;
+	private int age;
+	private static String country;
+	
+	//给对象初始化的函数
+	public Studentb(){
+		System.out.println("无参构造");
+	}
+	
+	public Studentb(int age,String name) {
+		this.age = age;
+		this.name = name;
+	}
+	
+		
+	
+	public Studentb(int age,String name,String country) {
+		this.age = age;
+		this.name = name;
+		this.country = country;
+	}
+	
+	public int getAge() {
+		return this.age;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	public String getCountry() {
+		return this.country;
+	}
+}
+
+public class fengzhuang0711_static {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Studentb s = new Studentb(13,"guoxinjing","china");
+		System.out.println(s.getAge()+"---"+s.getName()+"---"+s.getCountry());
+		
+		Studentb s1 = new Studentb(13,"guoxinjings");
+		System.out.println(s1.getAge()+"---"+s1.getName()+"---"+s1.getCountry());
+	}
+
+}
