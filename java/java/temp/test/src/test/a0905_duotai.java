@@ -16,6 +16,12 @@ package test;
 class Fu{
 	
 	int num = 1;
+	String name;
+	
+	public Fu(String name) {
+		this.name = name;
+		System.out.println("fu is name : "+this.name);
+	}
 	
 	public static void show() {
 		System.out.println("duotai-fu");
@@ -25,6 +31,10 @@ class Fu{
 class Zi extends Fu{
 	
 	int num = 2;
+	
+	public Zi(String name) {
+		super(name);
+	}
 	
 	public static void show() {
 		System.out.println("duotai-zi");
@@ -39,10 +49,11 @@ public class a0905_duotai {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Fu f = new Zi();
+		Fu f = new Zi("f");
 		f.show();
 		System.out.println(f.num);
 //		f.showZi();
+		System.out.println("---------------");
 		
 		//将多态强转成子类，z向下转型，把子转成父类
 		Zi z = (Zi)f;
@@ -51,7 +62,7 @@ public class a0905_duotai {
 		System.out.println(z.num);
 		System.out.println("---------------");
 		
-		Zi z2 = new Zi();
+		Zi z2 = new Zi("z2");
 		z2.showZi();
 		z2.show();
 		System.out.println(z2.num);

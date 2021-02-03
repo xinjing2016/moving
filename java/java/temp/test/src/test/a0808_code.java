@@ -38,12 +38,12 @@ class Code{
 
 public class a0808_code {
 
-//	public static void main(String[] args) {
-//		// TODO Auto-generated method stub
-//		Code c = new Code(1,1);
-//		System.out.println(c.x);
-//		
-//	}	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Code c = new Code(1,1);
+		System.out.println("c.x:"+c.x);
+		
+	}	
 	
 
 }

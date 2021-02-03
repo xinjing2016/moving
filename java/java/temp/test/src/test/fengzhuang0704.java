@@ -24,6 +24,7 @@ public class fengzhuang0704 {
 		// TODO Auto-generated method stub
 		Pri p = new Pri();
 		p.setAge(100);
+//		p.method();
 		
 	}
 

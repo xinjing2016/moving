@@ -83,6 +83,10 @@ public class a0926_interface {
 		Trains at = new aT();
 		at.Jump2();
 		
+		System.out.println("-----------");
+		Training s = new sister();
+		s.Jump();
+		
 	}
 
 }

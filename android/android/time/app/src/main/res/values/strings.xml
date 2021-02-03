@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">倒计时</string>
+    <string name="min15">15min</string>
+    <string name="min20">20min</string>
+    <string name="min30">30min</string>
+    <string name="min45">45min</string>
+    <string name="index">倒计时</string>
+    <string name="home">我的</string>
+</resources>

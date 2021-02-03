@@ -21,7 +21,7 @@ class Fathera{
 		System.out.println("初始化完成----"+this.name);
 	}
 	
-	public void show() {
+	protected void show() {
 		System.out.println(this.num);
 	}
 	
@@ -42,7 +42,7 @@ class Sona extends Fathera{
 	}
 	
 	//@overload
-	public void show() {
+	protected void show() {
 		int num = 1;
 		System.out.println(num);
 		System.out.println(this.num);
@@ -50,9 +50,9 @@ class Sona extends Fathera{
 		
 	}
 	
-//	public static void show1() {
-//		System.out.println(1);
-//	}
+	public static void show1() {
+		System.out.println(1);
+	}
 	
 }
 
